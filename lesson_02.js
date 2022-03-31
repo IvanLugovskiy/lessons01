@@ -1,5 +1,5 @@
 function ResultRepeet(x) {
-  x = x.sort();
+  //x = x.sort();
   let len = x.length;
   let count = 1;
   let tmpcount = 0;
@@ -23,6 +23,6 @@ function ResultRepeet(x) {
 exArray = [1, 2, 1, 3, 1, 4];
 exArray1 = [1, 2, 1, 3, 1, 4, 3, 1, 3, 3, 3, 5];
 ResultRepeet(exArray);
-ResultRepeet(exArray1);
+//ResultRepeet(exArray1);
 
 //F([1,2,1,3,1,4]) => {count:3, value:1}наибольшее количество повторений числа в массиве и само число
