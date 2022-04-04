@@ -1,13 +1,13 @@
-const FuncReturnLogic = (x) => {
+const funcreturnlogicvalue = (x) => {
   return (y) => {
-    return y > x ? true : false;
+    return y > x;
   };
 };
-let args = FuncReturnLogic(30)(20);
+let args = funcreturnlogicvalue(30)(40);
 console.log(args);
 
 /* F(x) => ff(y) => y > x
 Вот тут забавно. Ф принимает число X, возвращает функцию, которая тоже принимает число Y и возвращает значение Y > X  */
 
-/* нейминг - FuncReturnlogic, myArr - привыкай сразу такого не делать, имена должны иметь смысл, позже отдельно обсудим
+/* нейминг - funcreturnlogicvalue, myArr - привыкай сразу такого не делать, имена должны иметь смысл, позже отдельно обсудим
 4) возвращаться должен boolean; и попробуй обойтись без ифов, они не приносят там пользы */
